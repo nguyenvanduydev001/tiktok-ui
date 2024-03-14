@@ -5,11 +5,14 @@
     --white: #fff;
     --text-color: #161823;
 
+    --font-family: Arial, Tahoma, PingFangSC, TikTokFont, sans-serif;
+
     //Default layout
     --default-layout-header-height: 60px;
     --default-layout-width: 1488px;
     --default-layout-horizontal-spacer: 24px;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +23,7 @@ html {
     font-size: 62.5%;
 }
 body {
-    font-family: 'TikTokFont', Arial, Tahoma, 'PingFangSC', sans-serif;
+    font-family: var(--font-family);
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
