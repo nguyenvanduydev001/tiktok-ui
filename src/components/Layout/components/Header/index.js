@@ -133,7 +133,7 @@ function Header() {
                         {currentUser ? (
                             <Image
                                 className={cx('user-avatar')}
-                                src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/272a5ed79711a47e6b90ae9834ecccb7~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1710309600&x-signature=f%2Bm7X3s8I51YN1IBVwQ%2BfAhq%2B3I%3D"
+                                src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/5f7b803af6a9a04b4e4b6cc993f4513f~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1710655200&x-signature=bkKVB4Sruwx9zQBQjVmF0HOU5fI%3D"
                                 alt="Nguyen Van Duy"
                             />
                         ) : (
