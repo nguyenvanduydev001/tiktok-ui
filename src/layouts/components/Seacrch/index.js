@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Wrapper as PopperWrapper } from '~/components/Popper';
 import { SearchIcon } from '~/components/Icons';
 
-import * as searchServies from '~/apiServices/searchServices';
+import * as searchServies from '~/services/searchService';
 import HeadlessTippy from '@tippyjs/react/headless';
 import { useDebounce } from '~/hooks';
 import classNames from 'classnames/bind';
