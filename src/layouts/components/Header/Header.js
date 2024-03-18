@@ -119,7 +119,7 @@ function Header() {
                             <Tippy delay={[0, 50]} content="Inbox" placement="bottom">
                                 <button className={cx('action-btn')}>
                                     <InboxIcon />
-                                    <span className={cx('badge')}>12</span>
+                                    <span className={cx('badge')}>4</span>
                                 </button>
                             </Tippy>
                         </>
@@ -129,7 +129,7 @@ function Header() {
                             <Button primary>Log in</Button>
                         </>
                     )}
-                    
+
                     <Menu items={currentUser ? userMenu : MENU_ITEMS} onChange={handleMenuChange}>
                         {currentUser ? (
                             <Image
