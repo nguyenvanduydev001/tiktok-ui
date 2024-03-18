@@ -207,7 +207,7 @@ export const LogoutIcon = ({ width = '2rem', height = '2rem', className }) => (
     </svg>
 );
 
-export const HomeIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
+export const HomeIcon = ({ width = '3.6rem', height = '3.2rem', className }) => (
     <svg
         className={className}
         width={width}
@@ -223,7 +223,7 @@ export const HomeIcon = ({ width = '3.2rem', height = '3.2rem', className }) => 
         ></path>
     </svg>
 );
-export const HomeActiveIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
+export const HomeActiveIcon = ({ width = '3.6rem', height = '3.2rem', className }) => (
     <svg
         className={className}
         width={width}
@@ -240,7 +240,7 @@ export const HomeActiveIcon = ({ width = '3.2rem', height = '3.2rem', className 
     </svg>
 );
 
-export const UserGroupIcon = ({ width = '2.7rem', height = '2.7rem', className }) => (
+export const UserGroupIcon = ({ width = '3.7rem', height = '2.7rem', className }) => (
     <svg
         className={className}
         width={width}
@@ -257,7 +257,7 @@ export const UserGroupIcon = ({ width = '2.7rem', height = '2.7rem', className }
     </svg>
 );
 
-export const UserGroupActiveIcon = ({ width = '2.7rem', height = '2.7rem', className }) => (
+export const UserGroupActiveIcon = ({ width = '3.2rem', height = '2.7rem', className }) => (
     <svg
         fill="currentColor"
         className={className}
