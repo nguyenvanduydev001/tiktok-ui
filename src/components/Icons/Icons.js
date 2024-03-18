@@ -66,7 +66,7 @@ export const SearchIcon = ({ width = '2.4rem', height = '2.4rem', className }) =
     </svg>
 );
 
-export const ProfileIcon = ({ width = '2rem', height = '2rem', className }) => (
+export const ProfileIcon = ({ width = '3rem', height = '2.7rem', className }) => (
     <svg
         className={className}
         width={width}
@@ -83,7 +83,7 @@ export const ProfileIcon = ({ width = '2rem', height = '2rem', className }) => (
     </svg>
 );
 
-export const ProfileIconActive = ({ width = '2rem', height = '2rem', className }) => (
+export const ProfileIconActive = ({ width = '3rem', height = '2.7rem', className }) => (
     <svg
         className={className}
         width={width}
